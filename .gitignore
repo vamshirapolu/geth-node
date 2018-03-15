@@ -57,3 +57,11 @@ typings/
 # dotenv environment variables file
 .env
 
+.node-xmlhttprequest-sync-11928
+node/geth/chaindata/
+node/geth/lightchaindata/
+node/geth/nodekey
+node/geth/transactions.rlp
+node/geth/LOCK
+node/history
+package-lock.json

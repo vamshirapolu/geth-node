@@ -1,0 +1,24 @@
+[
+  {
+    "name"              : "node-app",
+    "script"            : "app.js",
+    "log_date_format"   : "YYYY-MM-DD HH:mm Z",
+    "merge_logs"        : false,
+    "watch"             : false,
+    "max_restarts"      : 10,
+    "exec_interpreter"  : "node",
+    "exec_mode"         : "fork_mode",
+    "env":
+    {
+      "NODE_ENV"        : "production",
+      "RPC_HOST"        : "localhost",
+      "RPC_PORT"        : "8545",
+      "LISTENING_PORT"  : "30303",
+      "INSTANCE_NAME"   : "Geth Node 01",
+      "CONTACT_DETAILS" : "Geth Node Strues",
+      "WS_SERVER"       : "http://stats.blockchain.strues.com",
+      "WS_SECRET"       : "struesprivateblock",
+      "VERBOSITY"       : 2
+    }
+  }
+]
